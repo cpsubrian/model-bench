@@ -1,0 +1,20 @@
+{
+  "name": "model-bench",
+  "version": "0.0.0",
+  "description": "Benchmarking various data modeling approaches.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpsubrian/model-bench.git"
+  },
+  "homepage": "https://github.com/cpsubrian/model-bench",
+  "author": "Brian Link <cpsubrian@gmail.com>",
+  "license": "MIT"
+}
