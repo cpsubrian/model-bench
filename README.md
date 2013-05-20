@@ -3,7 +3,6 @@ model-bench
 
 Benchmarking various data modeling approaches.
 
-
 - - -
 
 ### Developed by [Terra Eclipse](http://www.terraeclipse.com)
