@@ -3,9 +3,6 @@ model-bench
 
 Benchmarking various data modeling approaches.
 
-[![build status](https://secure.travis-ci.org/cpsubrian/model-bench.png)](http://travis-ci.org/cpsubrian/model-bench)
-
-&#x60;... project README above this point ...&#x60;
 
 - - -
 
