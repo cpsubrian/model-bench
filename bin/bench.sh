@@ -7,6 +7,7 @@ app.load(function(err) {
   if (err) throw err;
 
   require('cantina-mysql');
+  require(app.root + '/plugins/model');
 
   app.init(function (err) {
     if (err) throw err;
@@ -20,9 +21,13 @@ app.load(function(err) {
 // The tests.
 exports.compare = {
   'model classes': function (done) {
-    setTimeout(done, 300);
+    app.models.player.findOne(function (err, player) {
+      done(err);
+    });
   },
   'obj literals': function (done) {
-    setTimeout(done, 300);
+    app.mysql.query("SELECT * FROM players LIMIT 1", function (err, results) {
+      done(err);
+    });
   }
 };
