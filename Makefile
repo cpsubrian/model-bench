@@ -8,5 +8,9 @@ test:
 clean:
 	@./bin/clean.sh
 
+bench:
+	@./bin/bench.sh
+
 .PHONY: test
 .PHONY: clean
+.PHONY: bench
